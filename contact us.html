@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us </title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px,0px 10px rgba(0, 0,0, 0.1);
+            border-radius: 5px;
+        }
+
+        h2{
+            height: 50px;
+            background-color: #054669;
+            text-align: center;
+            color: #dbe9e0;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+        .contact-info{
+            margin-bottom: 20px;
+            line-height: 1.6;
+
+        }
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input,textarea{
+    padding: 10px;
+    margin: 10px,0;
+    border: 1px,solid,#ddd;
+    border-radius: 5px;
+}
+
+button{
+ background-color: #0288d1;
+ color: white;
+ padding: 10px;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+button:hover{
+    background-color: #026ba0;
+}
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="Container">
+        <h2>  Contact Us </h2>
+        <div class="contact-info">
+       <p> <strong>Library Name:</strong>
+           <strong>City Central Library</strong> </p>
+           <p>
+            <strong>Address:</strong>
+            <strong> 123Library  Street ,New Delhi ,India</strong>
+        </p>
+
+        <p> <strong> Email:</strong>
+            contact@librarysystem.com </p>
+
+            <p>
+                <strong>Phone:</strong>
+                876678976
+            </p>
+   </div>
+    <h3>Send Us a Message </h3>
+
+    <form>
+         <input type="text" name="name" placeholder="Your Name" required>
+
+         <input type="email" name="email" placeholder="Your Email" required>
+
+         <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+         <button type="submit"> Send Message</button>
+    </form>
+    </div>
+</html>
